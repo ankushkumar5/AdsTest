@@ -54,6 +54,8 @@ public class NativeActivity extends AppCompatActivity {
 
             frameLayout.removeAllViews();
             frameLayout.addView(adView);
+            mNativeAd.destroy();
+            mNativeAd = null;
         } else {
             ts("Ad Not Loaded Yet");
         }
