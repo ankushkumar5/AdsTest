@@ -3,4 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <FrameLayout
+        android:id="@+id/ibn_ad_placeholder"
+        android:layout_width="match_parent"
+        android:layout_above="@id/ibn_load"
+        android:layout_height="match_parent"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/load_ad"
+        android:id="@+id/ibn_load"
+        android:layout_above="@id/ibn_show"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/show_ad"
+        android:id="@+id/ibn_show"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
