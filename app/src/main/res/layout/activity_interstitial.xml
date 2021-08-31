@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Load Ad"
+        android:id="@+id/ib_load"
+        android:layout_above="@id/ib_show"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Show Ad"
+        android:id="@+id/ib_show"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

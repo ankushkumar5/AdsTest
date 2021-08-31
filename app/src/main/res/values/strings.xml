@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AdsTest</string>
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string> // Sample App Id
+    <string name="add_unit_id">ca-app-pub-3940256099942544/6300978111</string> // Sample Ad Unit Id For AdMob
+    <string name="ad_manager_ad_unit_id">/6499/example/banner</string> // Sample Ad Unit Id for Ad Manager Ads
+
+    <string name="banner_ads_example">Banner Ads Example</string>
+    <string name="interstitial_ads_example">Interstitial Ads Example</string>
+    <string name="native_ads_example">Native Ads Example</string>
+    <string name="rewarded_ads_example">Rewarded Ads Example</string>
+
+    <string name="m_banner_ads_example">Banner Ads Example</string>
+    <string name="m_interstitial_ads_example">Interstitial Ads Example</string>
+    <string name="m_native_ads_example">Native Ads Example</string>
+    <string name="m_rewarded_ads_example">Rewarded Ads Example</string>
+
+    <string name="admob_ads_integration_examples">AdMob Ads Integration Examples</string>
+    <string name="ad_manger_ads_integration_examples">AdManager Ads Integration Examples</string>
+
+    <string name="app_content">App Content</string>
+    <string name="load_next_ad">Load Next Ad</string>
+</resources>

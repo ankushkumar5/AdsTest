@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/admob_ads_integration_examples"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_mob_banner"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:text="@string/banner_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_mob_inter"
+            android:layout_width="match_parent"
+            android:text="@string/interstitial_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_mob_native"
+            android:layout_width="match_parent"
+            android:text="@string/native_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_mob_rewarded"
+            android:layout_width="match_parent"
+            android:text="@string/rewarded_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/ad_manger_ads_integration_examples"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_manager_banner"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:text="@string/banner_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_manager_inter"
+            android:layout_width="match_parent"
+            android:text="@string/interstitial_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_manager_native"
+            android:layout_width="match_parent"
+            android:text="@string/native_ads_example"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_manager_rewarded"
+            android:layout_width="match_parent"
+            android:text="@string/rewarded_ads_example"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:id="@+id/p_bar"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</RelativeLayout>
