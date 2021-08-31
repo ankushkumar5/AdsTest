@@ -4,7 +4,8 @@
     <string name="app_id">ca-app-pub-3940256099942544~3347511713</string> // Sample App Id
 
     <string name="adb_unit_id">ca-app-pub-3940256099942544/6300978111</string> // Sample Ad Unit Id For AdMob Banner Ads
-    <string name="adi_unit_id">"ca-app-pub-3940256099942544/1033173712"</string> // Sample Ad Unit Id For AdMob Interstitial Ads
+    <string name="adi_unit_id">ca-app-pub-3940256099942544/1033173712</string> // Sample Ad Unit Id For AdMob Interstitial Ads
+    <string name="adr_unit_id">ca-app-pub-3940256099942544/5224354917</string> // Sample Ad Unit Id For AdMob Rewarding Ads
 
     <string name="adbm_unit_id">/6499/example/banner</string> // Sample Ad Unit Id for Ad Manager Ads Banner Ads
     <string name="adim_unit_id">/6499/example/interstitial</string> // Sample Ad Unit Id for Ad Manager Ads Banner Ads
