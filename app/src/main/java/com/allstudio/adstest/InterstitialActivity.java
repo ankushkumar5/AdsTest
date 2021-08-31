@@ -2,8 +2,6 @@ package com.allstudio.adstest;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -30,6 +28,7 @@ public class InterstitialActivity extends AppCompatActivity {
     }
 
     private void loadAd() {
+        ts("Loading Ad... Please wait...");
         if(mInterstitialAd == null){
             AdRequest adRequest = new AdRequest.Builder().build();
             InterstitialAd.load(this, "ca-app-pub-3940256099942544/1033173712", adRequest,
@@ -47,6 +46,7 @@ public class InterstitialActivity extends AppCompatActivity {
                         public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                             ts(loadAdError.getMessage());
                             mInterstitialAd = null;
+                            ts("Ad Loading Failed");
                         }
                     });
         } else {
