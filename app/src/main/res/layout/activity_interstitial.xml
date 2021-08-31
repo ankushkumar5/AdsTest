@@ -5,14 +5,14 @@
 
     <Button
         android:layout_width="match_parent"
-        android:text="Load Ad"
+        android:text="@string/load_ad"
         android:id="@+id/ib_load"
         android:layout_above="@id/ib_show"
         android:layout_height="wrap_content"/>
 
     <Button
         android:layout_width="match_parent"
-        android:text="Show Ad"
+        android:text="@string/show_ad"
         android:id="@+id/ib_show"
         android:layout_centerInParent="true"
         android:layout_height="wrap_content"/>

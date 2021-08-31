@@ -28,10 +28,10 @@ public class InterstitialActivity extends AppCompatActivity {
     }
 
     private void loadAd() {
-        ts("Loading Ad... Please wait...");
         if(mInterstitialAd == null){
+            ts("Loading Ad... Please wait...");
             AdRequest adRequest = new AdRequest.Builder().build();
-            InterstitialAd.load(this, "ca-app-pub-3940256099942544/1033173712", adRequest,
+            InterstitialAd.load(this, getResources().getString(R.string.adi_unit_id), adRequest,
                     new InterstitialAdLoadCallback() {
                         @Override
                         public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
