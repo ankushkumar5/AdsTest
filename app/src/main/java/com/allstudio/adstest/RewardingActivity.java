@@ -26,8 +26,8 @@ public class RewardingActivity extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rewarding);
-        findViewById(R.id.ib_load).setOnClickListener(view -> loadAd());
-        findViewById(R.id.ib_show).setOnClickListener(view -> showAd());
+        findViewById(R.id.ibr_load).setOnClickListener(view -> loadAd());
+        findViewById(R.id.ibr_show).setOnClickListener(view -> showAd());
         loadAd();
     }
 
